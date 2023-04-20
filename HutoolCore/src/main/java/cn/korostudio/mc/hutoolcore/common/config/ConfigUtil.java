@@ -29,14 +29,14 @@ public class ConfigUtil {
             String configJSON = FileReader.create(new File(System.getProperty("user.dir")+"/config/" + name + ".json"), CharsetUtil.CHARSET_UTF_8).readString();
             T obj = JSONUtil.parseObj(configJSON).toBean(config);
             configObject.put(name,obj);
-            log.info("已读取配置文件："+name);
+            log.info("已读取配置文件："+System.getProperty("user.dir")+"/config/"+name+".json");
             return obj;
         }
         T obj = ReflectUtil.newInstance(config);
         FileWriter fileWriter = FileWriter.create(FileUtil.touch(System.getProperty("user.dir")+"/config/"+name+".json"), CharsetUtil.CHARSET_UTF_8);
         fileWriter.write(JSONUtil.parseObj(obj).toStringPretty());
         configObject.put(name,obj);
-        log.info("已创建配置文件："+name);
+        log.info("已创建配置文件："+System.getProperty("user.dir")+"/config/"+name+".json");
         return obj;
     }
 
@@ -47,7 +47,7 @@ public class ConfigUtil {
         });
     }
     public static void save(String name){
-        log.info("正在保存："+name);
+        log.info("正在保存："+System.getProperty("user.dir")+"/config/"+name+".json");
         Object value = configObject.get(name);
         if (value == null){
             throw new NotInitedException(name+" 的配置文件没有初始化,保存失败");

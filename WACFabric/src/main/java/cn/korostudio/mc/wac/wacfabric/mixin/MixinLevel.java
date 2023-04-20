@@ -23,16 +23,13 @@ public abstract class MixinLevel {
     @Shadow
     @Mutable
     private Holder<DimensionType> dimensionTypeRegistration;
-    @Final
-    @Shadow
-    @Mutable
-    private ResourceKey<DimensionType> dimensionTypeId;
-
-    @Shadow public abstract Holder<DimensionType> dimensionTypeRegistration();
 
     //OptionalLong fixedTime, boolean hasSkyLight, boolean hasCeiling, boolean ultraWarm, boolean natural, double coordinateScale, boolean bedWorks, boolean respawnAnchorWorks, int minY, int height, int logicalHeight, TagKey<Block> infiniburn, ResourceLocation effectsLocation, float ambientLight, DimensionType.MonsterSettings monsterSettings
     @Inject(method = "<init>",at = @At("TAIL"))
     private void getLevelData(WritableLevelData p_220352_, ResourceKey<Level> p_220353_, Holder<DimensionType> dimensionType, Supplier p_220355_, boolean p_220356_, boolean p_220357_, long p_220358_, int p_220359_, CallbackInfo ci) throws Throwable {
+        if(((Level)(Object)this).isClientSide()){
+            return;
+        }
         String id = p_220353_.location().toString();
         WorldConfig config = WAC.getInstance(id);
         DimensionType dimensionType1 = dimensionTypeRegistration.value();
