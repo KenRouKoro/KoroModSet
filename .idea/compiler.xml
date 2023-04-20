@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="C:/Program Files/gradle/gradle-7.6/jars/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="wacforge.WAC.test" />
+        <module name="wacforge.HutoolCore.test" />
+        <module name="wacforge.HutoolCore.main" />
+        <module name="wacforge.WAC.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="C:/Program Files/gradle/gradle-7.6/jars/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/6d1c8bf4c28e697f472a83bd6add76ec4951734/mixin-0.8.5-processor.jar" />
+        </processorPath>
+        <module name="wacforge.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hutoolcore" target="17" />
+      <module name="hutoolcore.forge" target="17" />
+      <module name="hutoolcore.forge.HutoolCore" target="17" />
+      <module name="hutoolcore.forge.HutoolCore.main" target="17" />
+      <module name="hutoolcore.forge.HutoolCore.test" target="17" />
+      <module name="hutoolcore.forge.main" target="17" />
+      <module name="hutoolcore.forge.test" target="17" />
+      <module name="hutoolcore.HutoolCore" target="17" />
+      <module name="hutoolcore.HutoolCore.main" target="17" />
+      <module name="hutoolcore.HutoolCore.test" target="17" />
+      <module name="HutoolCore.HutoolCoreInPaper" target="17" />
+      <module name="HutoolCore.HutoolCoreInPaper.main" target="17" />
+      <module name="HutoolCore.HutoolCoreInPaper.test" target="17" />
+      <module name="hutoolcore.main" target="17" />
+      <module name="hutoolcore.test" target="17" />
+      <module name="HutoolCore.untitled.main" target="17" />
+      <module name="HutoolCore.untitled.test" target="17" />
+      <module name="HutoolCoreInModLoader" target="17" />
+      <module name="HutoolCoreInModLoader.common" target="17" />
+      <module name="HutoolCoreInModLoader.common.main" target="17" />
+      <module name="HutoolCoreInModLoader.common.test" target="17" />
+      <module name="HutoolCoreInModLoader.fabric" target="17" />
+      <module name="HutoolCoreInModLoader.fabric.main" target="17" />
+      <module name="HutoolCoreInModLoader.fabric.test" target="17" />
+      <module name="HutoolCoreInModLoader.forge" target="17" />
+      <module name="HutoolCoreInModLoader.forge.main" target="17" />
+      <module name="HutoolCoreInModLoader.forge.test" target="17" />
+      <module name="HutoolCoreInModLoader.main" target="17" />
+      <module name="HutoolCoreInModLoader.test" target="17" />
+      <module name="wac" target="17" />
+      <module name="wac.main" target="17" />
+      <module name="wac.test" target="17" />
+      <module name="WCAForge" target="17" />
+      <module name="WCAForge.main" target="17" />
+      <module name="WCAForge.test" target="17" />
+      <module name="world-altitude-control" target="17" />
+      <module name="world-altitude-control.main" target="17" />
+      <module name="world-altitude-control.test" target="17" />
+      <module name="worldaltitudecontrol" target="17" />
+      <module name="worldaltitudecontrol.common" target="17" />
+      <module name="worldaltitudecontrol.common.main" target="17" />
+      <module name="worldaltitudecontrol.common.test" target="17" />
+      <module name="worldaltitudecontrol.fabric" target="17" />
+      <module name="worldaltitudecontrol.fabric.main" target="17" />
+      <module name="worldaltitudecontrol.fabric.test" target="17" />
+      <module name="worldaltitudecontrol.forge" target="17" />
+      <module name="worldaltitudecontrol.forge.main" target="17" />
+      <module name="worldaltitudecontrol.forge.test" target="17" />
+      <module name="worldaltitudecontrol.main" target="17" />
+      <module name="worldaltitudecontrol.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

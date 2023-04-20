@@ -1,0 +1,20 @@
+# 项目排除路径
+/HutoolCore/.gradle/
+/HutoolCore/build/
+/HutoolCore/build/classes/java/main/
+/HutoolCoreInFabric/.gradle/
+/HutoolCoreInFabric/build/
+/HutoolCoreInForge/.gradle/
+/HutoolCoreInForge/build/
+/HutoolCoreInForge/build/classes/java/main/
+/HutoolCoreInPaper/.gradle/
+/HutoolCoreInPaper/build/
+/HutoolCoreInPaper/build/classes/java/main/
+/WAC/.gradle/
+/WAC/build/
+/WAC/build/classes/java/main/
+/WACFabric/.gradle/
+/WACFabric/build/
+/WACForge/.gradle/
+/WACForge/build/
+/WACForge/build/classes/java/main/

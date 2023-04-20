@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1938083935/HutoolCoreInFabric.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1938083935/HutoolCoreInFabric.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1938083935/HutoolCoreInForge.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1938083935/HutoolCoreInForge.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HutoolCoreInForge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/HutoolCoreInForge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1938083935/HutoolCoreInPaper.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1938083935/HutoolCoreInPaper.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KoroModSet.iml" filepath="$PROJECT_DIR$/KoroModSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1938083935/WAC.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1938083935/WAC.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WAC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/WAC.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1938083935/WACFabric.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1938083935/WACFabric.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-394940386/WACFabric.WAC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-394940386/WACFabric.WAC.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cn.korostudio.mc.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cn.korostudio.mc.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1938083935/wacforge.HutoolCore.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1938083935/wacforge.HutoolCore.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-394940386/wacforge.WAC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-394940386/wacforge.WAC.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wacforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wacforge.main.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hutoolcore",
+  "version": "${version}",
+  "name": "HutoolCoreInFabric",
+  "description": "",
+  "authors": [
+    "KenRouKoro"
+  ],
+  "contact": {
+    "repo": "https://github.com/Koro/HutoolCoreInFabric"
+  },
+  "license": "LGPL-3.0",
+  "icon": "HutoolCore.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.korostudio.mc.hutoolcore.fabric.HutoolCoreInFabric"
+    ]
+  },
+  "mixins": [
+    "HutoolCoreInFabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

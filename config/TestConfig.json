@@ -1,0 +1,14 @@
+{
+    "str1": "HelloWorld!",
+    "testing": 114514,
+    "world1": {
+        "name": "world1",
+        "height": 512,
+        "min_y": -80
+    },
+    "world2": {
+        "name": "world2",
+        "height": 512,
+        "min_y": -80
+    }
+}
